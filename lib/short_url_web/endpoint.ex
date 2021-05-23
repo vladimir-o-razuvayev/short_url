@@ -7,7 +7,7 @@ defmodule ShortUrlWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_short_url_key",
-    signing_salt: "aiRM1eA0"
+    signing_salt: "Dt58mlJV"
   ]
 
   socket "/socket", ShortUrlWeb.UserSocket,

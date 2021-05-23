@@ -10,10 +10,10 @@ use Mix.Config
 # Configures the endpoint
 config :short_url, ShortUrlWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "8CHGfJcYjdMQD5/N+ySKRAw3IXKH8g4YVVqcCUuYakPX1JCCevor4qsZ6KD+Vc56",
+  secret_key_base: "le/KLQDZwLGFsNdsaq4QD7CE9s990XYSlgok1vE+tuzctEjRDKdk2yw0gMXfN+Rn",
   render_errors: [view: ShortUrlWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: ShortUrl.PubSub,
-  live_view: [signing_salt: "wJ/+neCy"]
+  live_view: [signing_salt: "nqNXXT8J"]
 
 # Configures Elixir's Logger
 config :logger, :console,

@@ -53,7 +53,7 @@ defmodule ShortUrl.MixProject do
   # See the documentation for `Mix` for more info on aliases.
   defp aliases do
     [
-      setup: ["deps.get"]
+      setup: ["deps.get", "cmd npm install --prefix assets"]
     ]
   end
 end
