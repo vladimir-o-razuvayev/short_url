@@ -1,0 +1,13 @@
+Simply use mix to fetch dependencies, test, and run the server. 
+Access endpoint at http://localhost:4000/
+
+
+
+setup:  
+mix deps.get
+
+test:
+mix test
+
+server:
+mix phx.server

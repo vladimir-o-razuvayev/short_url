@@ -1,0 +1,12 @@
+<section class="phx-hero">
+  <h1>STORD URL Shortener Exercise</h1>
+  <p>Submission by Vladimir O. Razuvayev</p>
+</section>
+
+  <p>
+    <%= form_tag("/") do
+      [tag(:input, type: "text", name: "URL"),
+       tag(:input, type: "submit", value: "Submit")]
+    end%>
+  </p>
+</section>
