@@ -5,6 +5,7 @@ Access endpoint at http://localhost:4000/
 
 setup:  
 mix deps.get
+npm install in assets directory
 
 test:
 mix test
